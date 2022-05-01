@@ -15,4 +15,4 @@ WORKDIR /code
 
 COPY code .
 
-ENTRYPOINT [ "python",'app.py' ] 
+ENTRYPOINT [ "sh",'echo','hell0o word' ] 

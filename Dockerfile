@@ -15,4 +15,4 @@ WORKDIR /code
 
 COPY code .
 
-CMD [ "python", "app.py"]
+ENTRYPOINT [ "python",'app.py' ] 

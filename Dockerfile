@@ -15,4 +15,3 @@ WORKDIR /code
 
 COPY code .
 
-ENTRYPOINT [ "sh",'echo','hell0o word' ] 
